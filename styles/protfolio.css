@@ -3,6 +3,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 0px 200px;
 
 }
 nav > ul{
@@ -36,4 +37,35 @@ font-weight: 700;
 }
 nav li{
     margin-right: 50px;
+}
+.head{
+    background: #FFF8F3;
+    background-image: url("../images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+.banner{
+    padding: 30px 30px 0px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.banner img{
+width: 500px;
+height: 600px;
+}
+.banner-greeting{
+    font-size: 45px;
+    color:  #474747;
+    margin-bottom: 0px;
+}
+.banner-title{
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.banner-content{
+    max-width: 500px;
+
 }
